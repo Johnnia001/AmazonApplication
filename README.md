@@ -1,1 +1,1 @@
-# AmazonApplication
+# Amazon Application Project
