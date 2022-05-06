@@ -11,7 +11,7 @@ public class Restaurant {
     //auto inclement id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String Name;
+    private String Applicant;
     private String Address;
     private String FoodItems;
 
@@ -29,11 +29,11 @@ public class Restaurant {
         this.id = id;
     }
 
-    public String getName() {
+    public String getApplicant() {
         return Name;
     }
 
-    public void setName(String name) {
+    public void setApplicant(String name) {
         Name = name;
     }
 
