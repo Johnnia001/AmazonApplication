@@ -30,11 +30,11 @@ public class Restaurant {
     }
 
     public String getApplicant() {
-        return Name;
+        return Applicant;
     }
 
-    public void setApplicant(String name) {
-        Name = name;
+    public void setApplicant(String applicant) {
+        Applicant = applicant;
     }
 
     public String getAddress() {
