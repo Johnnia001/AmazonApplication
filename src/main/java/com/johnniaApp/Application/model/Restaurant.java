@@ -1,9 +1,6 @@
 package com.johnniaApp.Application.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Restaurant {
@@ -14,6 +11,7 @@ public class Restaurant {
     private int id;
     private String Applicant;
     private String Address;
+    @Column(length = 500)
     private String FoodItems;
 
     // constructor
