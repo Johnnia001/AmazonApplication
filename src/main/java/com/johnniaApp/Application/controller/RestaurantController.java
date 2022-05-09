@@ -21,7 +21,7 @@ import java.util.List;
 @RestController
 // path
 @RequestMapping("/restaurant")
-@CrossOrigin(origins = {"https://amazon-application-client-efusupdd0-johnnia001.vercel.app/"})
+@CrossOrigin
 public class RestaurantController {
     @Autowired
     private RestaurantService restaurantService;
