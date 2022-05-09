@@ -19,9 +19,11 @@ public class Application {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins(
-                                "http://amazon-application-client-efusupdd0-johnnia001.vercel.app",
-                                "https://amazon-application-client-efusupdd0-johnnia001.vercel.app");
+                        .allowedOrigins("*")
+                        .allowedHeaders("*")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD")
+                        .maxAge(-1)
+                        .allowCredentials(false);
             }
         };
     }
