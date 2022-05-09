@@ -2,9 +2,9 @@
 Johnnia Arroyo
 
 ## Links ##
-[Other Repo](https://github.com/Johnnia001/amazonApplicationClient)
-[Deployed Api](https://tranquil-stream-27269.herokuapp.com/)
-[Deployed Client](https://amazon-application-client.vercel.app/)
+- [Other Repo](https://github.com/Johnnia001/amazonApplicationClient)
+- [Deployed Api](https://tranquil-stream-27269.herokuapp.com/)
+- [Deployed Client](https://amazon-application-client.vercel.app/)
 
 This is a RESTful API using MVC architectural pattern To retrieve a list of the San Francisco Food Trucks.
 The front end is React with javascript and the back end uses spring boot with java.This application features a one to many relationship with the user and restaurants. Axios is used as a third party api to send requests to back end.

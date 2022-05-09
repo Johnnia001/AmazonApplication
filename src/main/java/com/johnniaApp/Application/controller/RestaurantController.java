@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 import java.util.NoSuchElementException;
 
 import java.util.List;
@@ -18,7 +21,7 @@ import java.util.List;
 @RestController
 // path
 @RequestMapping("/restaurant")
-@CrossOrigin
+@CrossOrigin(origins = {"https://amazon-application-client-efusupdd0-johnnia001.vercel.app/"})
 public class RestaurantController {
     @Autowired
     private RestaurantService restaurantService;
